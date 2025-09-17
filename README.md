@@ -29,13 +29,13 @@ A real-time personal finance app to track expenses/income, set budgets, and mana
 ## 📦 Project Structure
 
 src/
-- components/Reusable UI (Header, Modal, etc.)
+- components/
 - pages/
   - HomePage.jsx
-│ ├─ LoginPage.jsx
-│ ├─ SignupPage.jsx
-│ ├─ Dashboard.jsx # Main tracker UI (transactions, budgets, goals, charts)
-│ └─ TourPage.jsx
-├─ firebase.js # Firebase init (Auth + Firestore)
-├─ App.jsx # Simple state-based router
-└─ index.css # Tailwind base & globals
+  - LoginPage.jsx
+  - SignupPage.jsx
+  - Dashboard.jsx
+  - TourPage.jsx
+- firebase.js
+- App.jsx 
+- index.css

@@ -1,12 +1,41 @@
-# React + Vite
+# Personal Finance Tracker (React + Firebase)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time personal finance app to track expenses/income, set budgets, and manage savings goals — with a clean, responsive UI and dark mode.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Auth**: Email/Password + Google (Firebase Auth)
+- **Transactions**: add/edit/delete, income vs expense, optional **recurring** (auto-seeded monthly)
+- **Filters**: by type, tag, date range, and text search
+- **Budgets**: per-category limits with progress bars and hover-delete (confirm modal)
+- **Savings Goals**: create/update/delete; progress bar
+- **Analytics**: “Expenses by Category” bar chart
+- **CSV**: export & import transactions
+- **Dark Mode** toggle
+- **Responsive** layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **Frontend:** React (Vite), Tailwind CSS
+- **Backend:** Firebase (Auth + Firestore)
+- **Optional hosting:** Firebase Hosting / Vercel
+
+---
+
+## 📦 Project Structure
+
+src/
+- components/ # Reusable UI (Header, Modal, etc.)
+- pages/
+│ ├─ HomePage.jsx
+│ ├─ LoginPage.jsx
+│ ├─ SignupPage.jsx
+│ ├─ Dashboard.jsx # Main tracker UI (transactions, budgets, goals, charts)
+│ └─ TourPage.jsx
+├─ firebase.js # Firebase init (Auth + Firestore)
+├─ App.jsx # Simple state-based router
+└─ index.css # Tailwind base & globals

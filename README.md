@@ -3,15 +3,15 @@ A responsive finance application built with React, Tailwind CSS, and Firebase, e
 
 ## Features
 
-**Auth**: Email/Password + Google (Firebase Auth)
-**Transactions**: add/edit/delete, income vs expense, optional **recurring** (auto-seeded monthly)
-**Filters**: by type, tag, date range, and text search
-**Budgets**: per-category limits with progress bars and hover-delete (confirm modal)
-**Savings Goals**: create/update/delete; progress bar
-**Analytics**: “Expenses by Category” bar chart
-**CSV**: export & import transactions
-**Dark Mode** toggle
-**Responsive** layout
+- **Auth**: Email/Password + Google (Firebase Auth)
+- **Transactions**: add/edit/delete, income vs expense, optional **recurring** (auto-seeded monthly)
+- **Filters**: by type, tag, date range, and text search
+- **Budgets**: per-category limits with progress bars and hover-delete (confirm modal)
+- **Savings Goals**: create/update/delete; progress bar
+- **Analytics**: “Expenses by Category” bar chart
+- **CSV**: export & import transactions
+- **Dark Mode** toggle
+- **Responsive** layout
 
 ---
 

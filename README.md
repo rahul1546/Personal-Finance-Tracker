@@ -26,13 +26,13 @@ A responsive finance application built with React, Tailwind CSS, and Firebase, e
 ## Project Structure
 
 src/
-├─ components/ # Reusable UI (Header, Modal, etc.)
-├─ pages/
-│ ├─ HomePage.jsx
-│ ├─ LoginPage.jsx
-│ ├─ SignupPage.jsx
-│ ├─ Dashboard.jsx # Main tracker UI (transactions, budgets, goals, charts)
-│ └─ TourPage.jsx
-├─ firebase.js # Firebase init (Auth + Firestore)
-├─ App.jsx # Simple state-based router
-└─ index.css # Tailwind base & globals
+- ├─ components/ # Reusable UI (Header, Modal, etc.)
+- ├─ pages/
+- │ ├─ HomePage.jsx
+- │ ├─ LoginPage.jsx
+- │ ├─ SignupPage.jsx
+- │ ├─ Dashboard.jsx # Main tracker UI (transactions, budgets, goals, charts)
+- │ └─ TourPage.jsx
+- ├─ firebase.js # Firebase init (Auth + Firestore)
+- ├─ App.jsx # Simple state-based router
+- └─ index.css # Tailwind base & globals

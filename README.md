@@ -31,7 +31,7 @@ A real-time personal finance app to track expenses/income, set budgets, and mana
 src/
 - components/Reusable UI (Header, Modal, etc.)
 - pages/
--- HomePage.jsx
+  - HomePage.jsx
 │ ├─ LoginPage.jsx
 │ ├─ SignupPage.jsx
 │ ├─ Dashboard.jsx # Main tracker UI (transactions, budgets, goals, charts)
